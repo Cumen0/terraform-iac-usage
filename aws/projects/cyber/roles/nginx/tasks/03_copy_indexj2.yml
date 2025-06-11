@@ -1,0 +1,10 @@
+---
+# This task copies the template file to the remote host
+
+- name: Deploy index.html
+  template:
+     src: 'index.html'
+     dest: '{{ dest }}/index.html'
+     mode: '0555'
+  notify:
+     - Restart Nginx Service
