@@ -7,13 +7,3 @@ data "aws_ami" "latest_ubuntu" {
     values = ["ubuntu/images/hvm-ssd-gp3/ubuntu-noble-24.04-amd64-server-*"]
   }
 }
-
-data "aws_route53_zone" "hosted_zone" {
-  name = var.hosted_zone_name
-}
-
-data "aws_vpc" "default" {
-  default = true
-}
-
-data "aws_subnets" "subnets" {}

@@ -3,4 +3,3 @@ variable "key_name" {}
 variable "instance_type" {}
 variable "env" {}
 variable "ports" {}
-variable "hosted_zone_name" {}

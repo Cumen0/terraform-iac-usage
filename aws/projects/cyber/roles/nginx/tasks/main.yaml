@@ -1,6 +1,0 @@
----
-# tasks file for deploy_nginx
-
-- include_tasks: 01_update_packages.yml
-- include_tasks: 02_nginx_install.yml
-- include_tasks: 03_copy_indexj2.yml

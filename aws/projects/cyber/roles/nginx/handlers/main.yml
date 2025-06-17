@@ -1,6 +1,0 @@
----
-# handlers used to restart the nginx service
-- name: Restart Nginx Service
-  service:
-     name: nginx
-     state: restarted
