@@ -23,7 +23,6 @@ provider "aws" {
 }
 
 module "s3_website" {
-  # Common
   source         = "../../modules/s3-website"
   region         = var.region
   env            = var.env
@@ -34,7 +33,6 @@ module "s3_website" {
 }
 
 module "access-management" {
-  # Common
   source       = "../../modules/access-management"
   region       = var.region
   env          = var.env
