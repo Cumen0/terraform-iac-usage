@@ -24,19 +24,16 @@ variable "project_name" {
 variable "identity_store_id" {
   description = "Identity Store ID for SSO"
   type        = string
-  default     = "d-90663bc3aa"
 }
 
 variable "sso_instance_arn" {
   description = "SSO Instance ARN"
   type        = string
-  default     = "arn:aws:sso:::instance/ssoins-7223dc6b0b831694"
 }
 
 variable "hosted_zone" {
   description = "The Route 53 hosted zone ID for the S3 website"
   type        = string
-  default     = "volodymyr-diadechko.online"
 }
 
 variable "users" {

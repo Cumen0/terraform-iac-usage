@@ -1,0 +1,11 @@
+# Example terraform.tfvars file
+# Copy this file to terraform.tfvars and fill in your actual values
+
+# Identity Store ID for SSO (get this from AWS SSO console)
+identity_store_id = "d-xxxxxxxxxx"
+
+# SSO Instance ARN (get this from AWS SSO console)
+sso_instance_arn  = "arn:aws:sso:::instance/ssoins-xxxxxxxxxx"
+
+# Your Route 53 hosted zone domain
+hosted_zone       = "your-domain.com" 
